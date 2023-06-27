@@ -1,0 +1,12 @@
+[
+    {
+        "color": "blue",
+        "createdAt": 1676879951554,
+        "icon": "SquarePlus",
+        "id": 2,
+        "label": "New",
+        "link": "new",
+        "order": 0,
+        "updatedAt": 1676879931728
+    }
+]

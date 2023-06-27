@@ -1,0 +1,57 @@
+[
+    {
+        "createdAt": 1676956308718,
+        "description": "Water resource exploitation index, plus ",
+        "id": 1,
+        "max": 100.0,
+        "metricId": 1,
+        "min": 0.0,
+        "name": "${\\textbf{WEI+}}$",
+        "unitId": 2,
+        "updatedAt": 1676958034249
+    },
+    {
+        "createdAt": 1676958744656,
+        "description": "Safe drinking water ",
+        "id": 2,
+        "max": 100.0,
+        "metricId": 3,
+        "min": 0.0,
+        "name": "${{\\mathrm{C}_{{\\mathrm{~totalDW}}}}}$",
+        "unitId": 2,
+        "updatedAt": 1676958360759
+    },
+    {
+        "createdAt": 1676958744656,
+        "description": "Compliant reclaimed water ",
+        "id": 3,
+        "max": 100.0,
+        "metricId": 2,
+        "min": 0.0,
+        "name": "${{\\mathrm{C}_{{\\mathrm{~totalRW}}}}}$",
+        "unitId": 2,
+        "updatedAt": 1676958706357
+    },
+    {
+        "createdAt": 1676959036561,
+        "description": "SRI (Safety and Resilience Index)",
+        "id": 4,
+        "max": 100.0,
+        "metricId": 4,
+        "min": 0.0,
+        "name": "$\\mathrm{SRI}_{\\mathrm{DW}}$",
+        "unitId": 2,
+        "updatedAt": 1676958958693
+    },
+    {
+        "createdAt": 1676959089131,
+        "description": "SRI (Safety and Resilience Index)",
+        "id": 5,
+        "max": 100.0,
+        "metricId": 4,
+        "min": 0.0,
+        "name": "$\\mathrm{SRI}_{\\mathrm{WW}}$",
+        "unitId": 2,
+        "updatedAt": 1676959059658
+    }
+]

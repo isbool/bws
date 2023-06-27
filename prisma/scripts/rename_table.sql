@@ -1,0 +1,1 @@
+ALTER TABLE DimentionOnStrategicObjective RENAME TO DimensionOnStrategicObjective;

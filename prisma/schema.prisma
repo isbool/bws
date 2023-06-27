@@ -1,0 +1,204 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model NavBarItem {
+  id        Int      @id @default(autoincrement())
+  label     String
+  link      String
+  color     String   @default("blue")
+  icon      String   @default("Badge")
+  order     Int
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model StrategicObjective {
+  id                             Int                              @id @default(autoincrement())
+  name                           String
+  description                    String?
+  assessmentCriterias            AssessmentCriteria[]
+  createdAt                      DateTime                         @default(now())
+  updatedAt                      DateTime                         @updatedAt
+  StrategicObjectiveOnAssessment StrategicObjectiveOnAssessment[]
+  DimensionOnStrategicObjective  DimensionOnStrategicObjective[]
+}
+
+model AssessmentCriteria {
+  id                             Int                              @id @default(autoincrement())
+  name                           String
+  description                    String?
+  strategicObjective             StrategicObjective               @relation(fields: [strategicObjectiveId], references: [id])
+  strategicObjectiveId           Int
+  metrics                        Metric[]
+  createdAt                      DateTime                         @default(now())
+  updatedAt                      DateTime                         @updatedAt
+  AssessmentCriteriaOnAssessment AssessmentCriteriaOnAssessment[]
+}
+
+model Metric {
+  id                   Int                  @id @default(autoincrement())
+  title                String
+  description          String?
+  type                 String?
+  assessmentCriteria   AssessmentCriteria   @relation(fields: [assessmentCriteriaId], references: [id])
+  assessmentCriteriaId Int
+  equation             Equation?            @relation(fields: [equationId], references: [id])
+  equationId           Int?                 @unique
+  createdAt            DateTime             @default(now())
+  updatedAt            DateTime             @updatedAt
+  Input                Input[]
+  Output               Output[]
+  MetricOnAssessment   MetricOnAssessment[]
+}
+
+model Input {
+  id                Int                 @id @default(autoincrement())
+  name              String
+  description       String?
+  definition        String?
+  min               Float?
+  max               Float?
+  equation          Equation?           @relation(fields: [equationId], references: [id])
+  equationId        Int?
+  metric            Metric              @relation(fields: [metricId], references: [id])
+  metricId          Int
+  unit              Unit                @relation(fields: [unitId], references: [id])
+  unitId            Int                 @default(1)
+  createdAt         DateTime            @default(now())
+  updatedAt         DateTime            @updatedAt
+  Category          Category?           @relation(fields: [categoryId], references: [id])
+  categoryId        Int?
+  InputOnAssessment InputOnAssessment[]
+  InputValue        InputValue[]
+}
+
+model Output {
+  id          Int      @id @default(autoincrement())
+  name        String
+  description String?
+  min         Float?
+  max         Float?
+  metric      Metric   @relation(fields: [metricId], references: [id])
+  metricId    Int
+  unit        Unit     @relation(fields: [unitId], references: [id])
+  unitId      Int      @default(3)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Unit {
+  id        Int      @id @default(autoincrement())
+  value     String
+  inputs    Input[]
+  outputs   Output[]
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Category {
+  id     Int     @id @default(autoincrement())
+  label  String
+  inputs Input[]
+}
+
+model Equation {
+  id          Int      @id @default(autoincrement())
+  format      String
+  latex       String?
+  description String?
+  inputs      Input[]
+  Metric      Metric?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Dimension {
+  id                            Int                             @id @default(autoincrement())
+  slug                          String
+  title                         String
+  description                   String?
+  DimensionOnStrategicObjective DimensionOnStrategicObjective[]
+}
+
+model DimensionOnStrategicObjective {
+  id                   Int                @id @default(autoincrement())
+  value                Int
+  strategicObjective   StrategicObjective @relation(fields: [strategicObjectiveId], references: [id], onDelete: Cascade)
+  strategicObjectiveId Int
+  dimensions           Dimension         @relation(fields: [dimensionsId], references: [id])
+  dimensionsId         Int
+}
+
+model Assessment {
+  id                  Int                              @id @default(autoincrement())
+  userId              String
+  title               String
+  description         String?
+  strategicObjectives StrategicObjectiveOnAssessment[]
+  assessmentCriterias AssessmentCriteriaOnAssessment[]
+  metrics             MetricOnAssessment[]
+  inputs              InputOnAssessment[]
+  inputValues         InputValue[]
+  createdAt           DateTime                         @default(now())
+  updatedAt           DateTime                         @updatedAt
+}
+
+model StrategicObjectiveOnAssessment {
+  id                   Int                @id @default(autoincrement())
+  assessment           Assessment         @relation(fields: [assessmentId], references: [id], onDelete: Cascade)
+  assessmentId         Int
+  strategicObjective   StrategicObjective @relation(fields: [strategicObjectiveId], references: [id])
+  strategicObjectiveId Int
+}
+
+model AssessmentCriteriaOnAssessment {
+  id                   Int                @id @default(autoincrement())
+  assessment           Assessment         @relation(fields: [assessmentId], references: [id], onDelete: Cascade)
+  assessmentId         Int
+  assessmentCriteria   AssessmentCriteria @relation(fields: [assessmentCriteriaId], references: [id])
+  assessmentCriteriaId Int
+}
+
+model MetricOnAssessment {
+  id           Int        @id @default(autoincrement())
+  assessment   Assessment @relation(fields: [assessmentId], references: [id], onDelete: Cascade)
+  assessmentId Int
+  metric       Metric     @relation(fields: [metricId], references: [id])
+  metricId     Int
+}
+
+model InputOnAssessment {
+  id           Int        @id @default(autoincrement())
+  assessment   Assessment @relation(fields: [assessmentId], references: [id], onDelete: Cascade)
+  assessmentId Int
+  input        Input      @relation(fields: [inputId], references: [id])
+  inputId      Int
+}
+
+model InputValue {
+  id           Int        @id @default(autoincrement())
+  assessment   Assessment @relation(fields: [assessmentId], references: [id], onDelete: Cascade)
+  assessmentId Int
+  input        Input      @relation(fields: [inputId], references: [id])
+  inputId      Int
+  InputValue   Float
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+}
+
+// enum MetricTypes {
+//   QUALITY
+//   EFFICIENCY
+//   INNOVATION
+//   SAFETY
+//   OTHER
+// }

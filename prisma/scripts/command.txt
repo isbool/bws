@@ -1,0 +1,1 @@
+prisma db execute --file "C:\Users\theone\Documents\GitHub\ICCS\nextjs\prisma\scripts\delete_all_assessments.sql"

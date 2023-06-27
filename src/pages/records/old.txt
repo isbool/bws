@@ -1,0 +1,29 @@
+   {assessments ? (
+        <Group position="left" spacing="md" grow={false} >
+          {assessments.map((assessment: Assessment) => {
+            // Check if assessment was created or modified in the last 10 minutes
+            const tenMinutesAgo = new Date(Date.now() - 10 * 60 * 1000);  // 10 minutes ago
+            const createdAt = new Date(assessment.createdAt);
+            const updatedAt = new Date(assessment.updatedAt);
+            const isNew = createdAt > tenMinutesAgo;
+            const isRecentlyModified = updatedAt > tenMinutesAgo && !isNew;
+            const handleDelete = (id: number) => {
+              setAssessments(prev => prev.filter(assessment => assessment.id !== id));
+            };
+            return (
+              <ActionsGrid />
+              // <Collapse in={assessment.title.toLowerCase().includes(searchTerm.toLowerCase())}>
+              //   {isNew && (
+              //     <Indicator inline  position="top-center" label="New" size={16}>
+              //       <AssessmentCard assessment={assessment} onDelete={() => handleDelete(assessment.id)}/>
+              //     </Indicator>
+              //   )}
+              //   {isRecentlyModified && (
+              //     <Indicator inline position="top-center" label="Recently Modified" size={16}>
+              //       <AssessmentCard assessment={assessment} onDelete={() => handleDelete(assessment.id)}/>
+              //     </Indicator>
+              //   )}
+              //   {!isNew && !isRecentlyModified && <AssessmentCard assessment={assessment} onDelete={() => handleDelete(assessment.id)} />}
+              // </Collapse>
+            );
+          })}

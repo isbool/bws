@@ -1,0 +1,122 @@
+[
+    {
+        "createdAt": 1676888215542,
+        "description": null,
+        "id": 1,
+        "name": "A.1 Safe and secure fit-for-purpose water provision",
+        "strategicObjectiveId": 1,
+        "updatedAt": 1676888176626
+    },
+    {
+        "createdAt": 1676888228340,
+        "description": null,
+        "id": 2,
+        "name": "A.2 Accessibility and equity (for people and for other uses)",
+        "strategicObjectiveId": 1,
+        "updatedAt": 1676888216016
+    },
+    {
+        "createdAt": 1676888252781,
+        "description": null,
+        "id": 3,
+        "name": "A.3 Financial viability",
+        "strategicObjectiveId": 1,
+        "updatedAt": 1676888244502
+    },
+    {
+        "createdAt": 1676888342463,
+        "description": null,
+        "id": 4,
+        "name": "B.1 Safeguarded water ecosystems",
+        "strategicObjectiveId": 2,
+        "updatedAt": 1676888283907
+    },
+    {
+        "createdAt": 1676888342463,
+        "description": null,
+        "id": 5,
+        "name": "B.2 Enhanced ecosystem services to society",
+        "strategicObjectiveId": 2,
+        "updatedAt": 1676888306699
+    },
+    {
+        "createdAt": 1676888342463,
+        "description": null,
+        "id": 6,
+        "name": "B.3 Resource efficiency",
+        "strategicObjectiveId": 2,
+        "updatedAt": 1676888324793
+    },
+    {
+        "createdAt": 1676888416527,
+        "description": null,
+        "id": 7,
+        "name": "C.1 Circular policy making ",
+        "strategicObjectiveId": 3,
+        "updatedAt": 1676888363318
+    },
+    {
+        "createdAt": 1676888416527,
+        "description": null,
+        "id": 8,
+        "name": "C.2 Circular economy growth ",
+        "strategicObjectiveId": 3,
+        "updatedAt": 1676888376346
+    },
+    {
+        "createdAt": 1676888416527,
+        "description": null,
+        "id": 9,
+        "name": "C.3 Resource recovery and efficient use ",
+        "strategicObjectiveId": 3,
+        "updatedAt": 1676888389538
+    },
+    {
+        "createdAt": 1676888493426,
+        "description": null,
+        "id": 10,
+        "name": "D.1 Enabling planning to promote adaptive change towards circularity and resilience",
+        "strategicObjectiveId": 4,
+        "updatedAt": 1676888437911
+    },
+    {
+        "createdAt": 1676888493426,
+        "description": null,
+        "id": 11,
+        "name": "D.2 Implementing adaptive change towards resilient infrastructure ",
+        "strategicObjectiveId": 4,
+        "updatedAt": 1676888451492
+    },
+    {
+        "createdAt": 1676888493426,
+        "description": null,
+        "id": 12,
+        "name": "D.3 Effectiveness of the adaptive change towards resilient infrastructure (Diagnosis)",
+        "strategicObjectiveId": 4,
+        "updatedAt": 1676888464982
+    },
+    {
+        "createdAt": 1676888573319,
+        "description": null,
+        "id": 13,
+        "name": "E.1 Awareness and Knowledge",
+        "strategicObjectiveId": 5,
+        "updatedAt": 1676888521572
+    },
+    {
+        "createdAt": 1676888573319,
+        "description": null,
+        "id": 14,
+        "name": "E.2 Multi-sector network potential",
+        "strategicObjectiveId": 5,
+        "updatedAt": 1676888544995
+    },
+    {
+        "createdAt": 1676888573319,
+        "description": null,
+        "id": 15,
+        "name": "E.3 Stakeholder engagement processes",
+        "strategicObjectiveId": 5,
+        "updatedAt": 1676888557049
+    }
+]

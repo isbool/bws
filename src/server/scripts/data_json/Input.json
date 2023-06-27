@@ -1,0 +1,101 @@
+[
+    {
+        "createdAt": 1676954742767,
+        "description": "Water use",
+        "id": 1,
+        "max": null,
+        "metricId": 1,
+        "min": 0.0,
+        "name": "${\\mathrm{W}_{\\mathrm{U}}}$",
+        "unitId": 1,
+        "updatedAt": 1676962473072
+    },
+    {
+        "createdAt": 1676954742767,
+        "description": "Renewable water resources equal to Outflow + (Abstraction - Return) - Change in storage",
+        "id": 2,
+        "max": null,
+        "metricId": 1,
+        "min": 0.0,
+        "name": "${\\text{RWR}}$",
+        "unitId": 1,
+        "updatedAt": 1676962473072
+    },
+    {
+        "createdAt": 1676954742767,
+        "description": "Set of questions for A.1.1 DW",
+        "id": 3,
+        "max": null,
+        "metricId": 1,
+        "min": 0.0,
+        "name": "${\\text{EFR}}$",
+        "unitId": 1,
+        "updatedAt": 1676962514200
+    },
+    {
+        "createdAt": 1676957799527,
+        "description": "Total number of samples of drinking water with exceedance, i.e., sum of samples with microbial, chemical and indicator parameter exceedance",
+        "id": 4,
+        "max": null,
+        "metricId": 3,
+        "min": 0.0,
+        "name": "${{\\mathrm{n}_{\\mathrm{e}{\\mathrm{~totalDW}}}}}$",
+        "unitId": 3,
+        "updatedAt": 1676962514200
+    },
+    {
+        "createdAt": 1676958351722,
+        "description": "Total number of samples of reclaimed water with exceedance, i.e., sum of samples with microbial, chemical or indicator parameter exceedance",
+        "id": 5,
+        "max": null,
+        "metricId": 2,
+        "min": 0.0,
+        "name": "${{\\mathrm{n}_{\\mathrm{e}{\\mathrm{~totalRW}}}}}$",
+        "unitId": 3,
+        "updatedAt": 1676962514200
+    },
+    {
+        "createdAt": 1676958351722,
+        "description": "Total number of drinking water samples analyzed in assessment period",
+        "id": 6,
+        "max": null,
+        "metricId": 3,
+        "min": null,
+        "name": "${{\\mathrm{n}_{{\\mathrm{~totalDW}}}}}$",
+        "unitId": 3,
+        "updatedAt": 1676962514200
+    },
+    {
+        "createdAt": 1676958598374,
+        "description": "Total number of reclaimed water samples analyzed in assessment period",
+        "id": 7,
+        "max": null,
+        "metricId": 2,
+        "min": null,
+        "name": "${{\\mathrm{n}_{{\\mathrm{~totalRW}}}}}$",
+        "unitId": 3,
+        "updatedAt": 1676962514200
+    },
+    {
+        "createdAt": 1676958953772,
+        "description": "Set of questions for A.1.1 DW",
+        "id": 8,
+        "max": null,
+        "metricId": 4,
+        "min": 0.0,
+        "name": "${\\text{QA.1.1-DW}}$",
+        "unitId": 3,
+        "updatedAt": 1676962514200
+    },
+    {
+        "createdAt": 1676958953772,
+        "description": "Set of questions for A.1.1 WW",
+        "id": 9,
+        "max": null,
+        "metricId": 4,
+        "min": 0.0,
+        "name": "${\\text{QA.1.1-WW}}$",
+        "unitId": 3,
+        "updatedAt": 1676962514200
+    }
+]

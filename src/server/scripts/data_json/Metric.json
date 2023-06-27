@@ -1,0 +1,602 @@
+[
+    {
+        "assessmentCriteriaId": 1,
+        "createdAt": 1676922473125,
+        "description": "The WEI+ aims to illustrate the percentage used of the total renewable freshwater resources available in a defined territory (basin, sub-basin etc.) for a given time step (e.g., seasonal, annual). WEI+ is a ‘state’ indicator (DPSIR). Its legislative reference is the Water Framework Directive. WEI+ is linked to the SDG 6, indicator 6.4.2 (level of water stress)",
+        "equation": null,
+        "id": 1,
+        "title": "Metric “A.1.1” Water resource exploitation index +",
+        "type": "Equation-based",
+        "updatedAt": 1676923849548
+    },
+    {
+        "assessmentCriteriaId": 1,
+        "createdAt": 1676923849548,
+        "description": "‘Reclaimed water’ means urban wastewater that has been treated in compliance with the requirements set out in Directive 91/271/EEC (Urban Wastewater Treatment Directive), and which results from further treatment in a reclamation facility; in accordance with Section 2 of Annex I to this Regulation: ‘Point of compliance’ means the point where a reclamation facility operator or alternative water supplier delivers reclaimed and/or non-potable water to the next actor in the chain. ‘Non-compliance with reclaimed water quality standards per type of use’ is defined in accordance with the agreements under EU or national legislation, such as Regulation (EU) 2020/741 of the European Parliament and of the Council on minimum requirements for water reuse.",
+        "equation": null,
+        "id": 2,
+        "title": "Metric “A.1.3” Compliant reclaimed water",
+        "type": "Equation-based",
+        "updatedAt": 1676923751458
+    },
+    {
+        "assessmentCriteriaId": 1,
+        "createdAt": 1676923849548,
+        "description": "‘Non-compliance with water quality standards’ as described by the monitoring report under the Drinking Water Directives (DWD) (or associated national legislation): “The percentage of compliance reflects the ratio of the number of samples analyzed and the number of exceedances observed. If at least 99 % of all analyses done in a given year meet the given standard, the Member State is considered to be compliant with the Directive for the parameter concerned. Exceedances of indicator parameters do not necessarily mean a non-compliance with the Directive because of the above-mentioned reasons (if there is no direct threat to human health).” ",
+        "equation": null,
+        "id": 3,
+        "title": "Metric \"A.1.2\" Safe drinking water",
+        "type": "Equation-based",
+        "updatedAt": 1676923764950
+    },
+    {
+        "assessmentCriteriaId": 1,
+        "createdAt": 1676923849548,
+        "description": "The SRI aims to assess the aspects considered essential for a resilient drinking water supply service, considering 4 classes (Governance and safety operationalization, Risk management, Communication and Existence of a plan), and 5 categories related to water safety, security of facilities (infrastructure and product), cybersecurity, contingency, and emergency and crisis management.",
+        "equation": null,
+        "id": 4,
+        "title": "Metric \"A.1.4\" Safety and Resilience Index",
+        "type": "Questionnaire-based",
+        "updatedAt": 1676923817304
+    },
+    {
+        "assessmentCriteriaId": 2,
+        "createdAt": 1676925013095,
+        "description": "The physical access to drinking water supply reflects the accessibility in terms of the water supply network and a physical connection to the system as required by customers. The metric can be extended to sewers connection, as indicated under data disaggregation",
+        "equation": null,
+        "id": 5,
+        "title": "Metric \"A.2.1\" Physical access to water supply (households and small business)",
+        "type": "Equation-based",
+        "updatedAt": 1676923864279
+    },
+    {
+        "assessmentCriteriaId": 2,
+        "createdAt": 1676925013095,
+        "description": "This is a density index defined as the total number of operational physical access points to water supply in public spaces (public drinking water fountains, cooling fountains, etc.) of a given area. A fountain or other point of public consumption must be considered “non-operational” when it is not possible to provide water to consumers due to physical deficiencies (e.g., broken taps, broken pump)",
+        "equation": null,
+        "id": 6,
+        "title": "Metric \"A.2.2\" Physical access to water supply in public spaces for quality of life",
+        "type": "Equation-based",
+        "updatedAt": 1676923887934
+    },
+    {
+        "assessmentCriteriaId": 2,
+        "createdAt": 1676925013095,
+        "description": "The physical access to water supply rate reflects the accessibility in terms of water supply network and a physical connection to the system as required by industries",
+        "equation": null,
+        "id": 7,
+        "title": "Metric \"A.2.3\" Physical access to water supply (industrial use)",
+        "type": "Equation-based",
+        "updatedAt": 1676923914010
+    },
+    {
+        "assessmentCriteriaId": 2,
+        "createdAt": 1676925013095,
+        "description": "The access to water for agriculture or garden reflects the level of sustainable practice adopted for irrigation",
+        "equation": null,
+        "id": 8,
+        "title": "Metric \"A.2.4\" Agriculture area with access to water for irrigation",
+        "type": "Equation-based",
+        "updatedAt": 1676923931725
+    },
+    {
+        "assessmentCriteriaId": 3,
+        "createdAt": 1676925013095,
+        "description": "The extent that expenditures for water-smart services are perceived money being well spent and trust that money is well spend",
+        "equation": null,
+        "id": 9,
+        "title": "Metric “A.3.1” Consumer willingness to pay",
+        "type": "Interview-based",
+        "updatedAt": 1676923959437
+    },
+    {
+        "assessmentCriteriaId": 3,
+        "createdAt": 1676925013095,
+        "description": "The extent that water-smart services and measures are available and affordable for all citizens, including the poorest",
+        "equation": null,
+        "id": 10,
+        "title": "Metric “A.3.2” Affordability",
+        "type": "Interview-based",
+        "updatedAt": 1676924072622
+    },
+    {
+        "assessmentCriteriaId": 3,
+        "createdAt": 1676925013095,
+        "description": "The extent that financial arrangements secure long-term, robust policy implementation, continuation, and risk reduction",
+        "equation": null,
+        "id": 11,
+        "title": "Metric “A.3.3” Financial continuation",
+        "type": "Interview-based",
+        "updatedAt": 1676924102632
+    },
+    {
+        "assessmentCriteriaId": 3,
+        "createdAt": 1676925013095,
+        "description": "By-product is considered a secondary product made in the manufacture, treatment or synthesis of something else. Revenue is the income that a business or government receives regularly, or an amount representing such income. Treatment process or activity is considered the main infrastructure or technology where the organization is having its main activities. It can be considered a wastewater treatment plant, an industry, etc. Total costs during the assessment period, including capital (excluding the investment subsidized) and running costs, regarding the service",
+        "equation": null,
+        "id": 12,
+        "title": "Metric “A.3.4” Cost coverage ratio",
+        "type": "Equation-based",
+        "updatedAt": 1676924123239
+    },
+    {
+        "assessmentCriteriaId": 4,
+        "createdAt": 1676925013095,
+        "description": "Upholding minimum waterflow of rivers and streams is a central aspect to the protection of water ecosystems. Going below this limit would affect life in the water and thus the biodiversity",
+        "equation": null,
+        "id": 13,
+        "title": "Metric \"B.1.1\" EFR Compliance Rate",
+        "type": "Equation-based",
+        "updatedAt": 1676924147671
+    },
+    {
+        "assessmentCriteriaId": 4,
+        "createdAt": 1676925013095,
+        "description": "Stormwater treatment coverage. The concept is based on measuring or having an overview of the total amount of stormwater that is effectively produced in a city that is being treated before it is sent to a recipient (lake, river, sea, groundwater)",
+        "equation": null,
+        "id": 14,
+        "title": "Metric \"B.1.2\" Effective stormwater treatment",
+        "type": "Equation-based",
+        "updatedAt": 1676924171190
+    },
+    {
+        "assessmentCriteriaId": 4,
+        "createdAt": 1676925013095,
+        "description": "Wastewater treatment coverage and volumetric efficiency. The concept is based on having an overview of the share of customers that is connected to the public wastewater system or is having a local legal treatment system in place. Based on population data, the share of total generated wastewater that is being treated can then be estimated",
+        "equation": null,
+        "id": 15,
+        "title": "Metric \"B.1.3\" Effective wastewater treatment",
+        "type": "Equation-based",
+        "updatedAt": 1676924188359
+    },
+    {
+        "assessmentCriteriaId": 5,
+        "createdAt": 1676925013095,
+        "description": "The metric is based on the ecosystem service theory and based on the common classification of ecosystem services from the European Environment Agency. In the calculation, only the most critical substance for the analyzed area can be considered",
+        "equation": null,
+        "id": 16,
+        "title": "Metric “B.2.1” Benefits from regulating services (water quality)",
+        "type": "Equation-based",
+        "updatedAt": 1676924210305
+    },
+    {
+        "assessmentCriteriaId": 5,
+        "createdAt": 1676925013095,
+        "description": "The metric is based on a proxy to measure the state of an ecosystem to maintain nursery populations and habitats of the catchment, ensuring biodiversity. Therefore, the metric is based on the WFD (2000) and the 5-step-scale (EC, 2005) to assess the ecological status of a water body",
+        "equation": null,
+        "id": 17,
+        "title": "Metric “B.2.2” Maintaining nursery populations and habitats",
+        "type": "Equation-based",
+        "updatedAt": 1676924232753
+    },
+    {
+        "assessmentCriteriaId": 5,
+        "createdAt": 1676925013095,
+        "description": "The metric is based on a proxy to measure the endangered human health dimension by extreme events. It is based on the indicator “amount of people affected by floods”. The underlying concept is the ecosystem service theory, manifested in specific ecosystem services selectable from CICES (EEA, 2018). Here, so called regulating ecosystem services are beneficial for human well-being. For water related regulating ecosystem services especially the ecosystem service from flood control and coastal protection are important",
+        "equation": null,
+        "id": 18,
+        "title": "Metric “B.2.3” Regulation of extreme events",
+        "type": "Equation-based",
+        "updatedAt": 1676924249018
+    },
+    {
+        "assessmentCriteriaId": 5,
+        "createdAt": 1676925013095,
+        "description": "The metric measures the development of water provision by the ecosystem. The underlying concept is the ecosystem service theory, manifested in specific ecosystem services selectable from CICES (EEA, 2018). Here, so called provisioning ecosystem services are beneficial for human well-being. For water related regulating ecosystem services especially the ecosystem service from water provisioning for several usages is important (water for potable and non-potable use, water for hydroelectricity etc.)",
+        "equation": null,
+        "id": 19,
+        "title": "Metric “B.2.4” Water provision by ecosystem",
+        "type": "Equation-based",
+        "updatedAt": 1676924278372
+    },
+    {
+        "assessmentCriteriaId": 5,
+        "createdAt": 1676925013095,
+        "description": "The metric is used to measure the “people enjoying cultural ecosystem services”. The underlying concept is the ecosystem service theory, manifested in specific ecosystem services selectable from CICES (EEA, 2018). Here, so called cultural ecosystem services are beneficial for human well-being. For water related cultural ecosystem services especially the amount of people enjoying recreational activities aligned with the water system or enabled by water used for e.g., urban ecosystems like urban green spaces under study are of interest",
+        "equation": null,
+        "id": 20,
+        "title": "Metric “B.2.5” People enjoying cultural ecosystem services",
+        "type": "Equation-based",
+        "updatedAt": 1676924302672
+    },
+    {
+        "assessmentCriteriaId": 6,
+        "createdAt": 1676925013095,
+        "description": "The water footprint of a product is defined as the total volume of freshwater that is used directly or indirectly to produce/treat the product. It is estimated by considering water consumption and pollution in all steps of the production/treatment chain. The water footprint of a product breaks down into a green, blue, and grey component",
+        "equation": null,
+        "id": 21,
+        "title": "Metric \"B.3.1\" Water Footprint ",
+        "type": "Equation-based",
+        "updatedAt": 1676924319845
+    },
+    {
+        "assessmentCriteriaId": 6,
+        "createdAt": 1676925013095,
+        "description": "CFP gives information about the impacts of the activities and identifies the emission hotspots. It will help to reduce emissions and to make a more efficient use of resources. CFP results are in kg CO2 equivalent. The CO2 equivalent is calculated from Global warming potential over100 years. This is an IPCC indicator for calculating the carbon footprint",
+        "equation": null,
+        "id": 22,
+        "title": "Metric \"B.3.2\" Carbon Footprint ",
+        "type": "Equation-based",
+        "updatedAt": 1676924335840
+    },
+    {
+        "assessmentCriteriaId": 6,
+        "createdAt": 1676925013095,
+        "description": "This metric aims assess the total energy used across the whole system (drinking water or wastewater system or both systems aggregated), for heating, all processes and installations (treatment processes, pumps etc.) over a set period of time, per total water produced/treated (given in m3) for the same time period. It therefore reflects the efficiency in use of energy",
+        "equation": null,
+        "id": 23,
+        "title": "Metric \"B.3.3\" Energy consumption ",
+        "type": "Equation-based",
+        "updatedAt": 1676924356027
+    },
+    {
+        "assessmentCriteriaId": 6,
+        "createdAt": 1676925013095,
+        "description": "The drinking water consumption per capita is a measure on how effectively water is used by the inhabitants served. Thus, it is also an indirect measure of the amount of water-effective (water reducing) products and installations that are installed and used (by inhabitants. Annual drinking water production/consumption includes water used for industry, public use, leakages and other unaccounted for water use. This water use has to be estimated and deducted from the water production before averaging the personal water consumption",
+        "equation": null,
+        "id": 24,
+        "title": "Metric \"B.3.4\" Drinking water consumption",
+        "type": "Equation-based",
+        "updatedAt": 1676924372918
+    },
+    {
+        "assessmentCriteriaId": 7,
+        "createdAt": 1676925013095,
+        "description": "The extent that organizations and their stakeholders comply with existing legislation in a well-coordinated, clear and transparent manner",
+        "equation": null,
+        "id": 25,
+        "title": "Metric “C.1.1\" Statutory compliance",
+        "type": "Interview-based",
+        "updatedAt": 1676924398723
+    },
+    {
+        "assessmentCriteriaId": 7,
+        "createdAt": 1676925013095,
+        "description": "The level of preparedness to sudden changes and uncertainties in the formulation of circular policies and emergency planning (PREP)",
+        "equation": null,
+        "id": 26,
+        "title": "Metric “C.1.2\" Preparedness",
+        "type": "Interview-based",
+        "updatedAt": 1676924415279
+    },
+    {
+        "assessmentCriteriaId": 7,
+        "createdAt": 1676925013095,
+        "description": "The effective use of policy instruments that promote the circular economy and enable behavioral changes for a water-smart society",
+        "equation": null,
+        "id": 27,
+        "title": "Metric “C.1.3\" Policy instruments",
+        "type": "Interview-based",
+        "updatedAt": 1676924418353
+    },
+    {
+        "assessmentCriteriaId": 7,
+        "createdAt": 1676925013095,
+        "description": "The use of Green Public Procurement (GPP) criteria as a 'proxy' indicator as a proxy for market creation for circular economy products and services implies assessing whether there exist sustainability criteria that are being applied in public contracts (such as for wastewater management infrastructure), and what criteria are being applied in evaluating and approving these contracts (such as energy consumption, waste production, nutrient recovery). GPP can give more context information and complement other policy making metrics",
+        "equation": null,
+        "id": 28,
+        "title": "Metric “C.1.4\" Green public procurement",
+        "type": "Equation-based",
+        "updatedAt": 1676924418742
+    },
+    {
+        "assessmentCriteriaId": 7,
+        "createdAt": 1676925013095,
+        "description": "The level of ambition of the strategies from a realistic point of view, considering the long-term achievements, flexibility of goals and uncertainties",
+        "equation": null,
+        "id": 29,
+        "title": "Metric “C.1.5\" Level of ambition",
+        "type": "Interview-based",
+        "updatedAt": 1676924420490
+    },
+    {
+        "assessmentCriteriaId": 8,
+        "createdAt": 1676925013095,
+        "description": "By-product is considered a secondary product made in the manufacture, treatment or synthesis of something else. Revenue is the income that a business or government receives regularly, or an amount representing such income. Treatment process or activity is considered the main infrastructure or technology where the organization is having its main activities. It can be considered a wastewater treatment plant, an industry, etc.",
+        "equation": null,
+        "id": 30,
+        "title": "Metric “C.2.1\" By-products recovery revenues",
+        "type": "Equation-based",
+        "updatedAt": 1676924497057
+    },
+    {
+        "assessmentCriteriaId": 8,
+        "createdAt": 1676925013095,
+        "description": "Green jobs are those jobs considered to contribute to preserve or restore the environment. They minimize waste and pollution, protect, and restore ecosystems and support adaptation to the effects of climate change",
+        "equation": null,
+        "id": 31,
+        "title": "Metric “C.2.2” Green jobs",
+        "type": "Equation-based",
+        "updatedAt": 1676924504444
+    },
+    {
+        "assessmentCriteriaId": 8,
+        "createdAt": 1676925013095,
+        "description": "Circular economy: refers to an economy that is restorative, aims to maintain the utility of products, components and materials and retain their value. Business model: company's plan for making a profit. It identifies the products or services the business plans to sell, its identified target market, and any anticipated expenses",
+        "equation": null,
+        "id": 32,
+        "title": "Metric “C.2.3” Circular economy business models in practice",
+        "type": "Equation-based",
+        "updatedAt": 1676924504819
+    },
+    {
+        "assessmentCriteriaId": 9,
+        "createdAt": 1676925013095,
+        "description": "By-product is considered a secondary product made in the manufacture, treatment or synthesis of something else. Treatment process or activity is considered the main infrastructure or technology where the organization is having its main activities. An organization can be considered a drinking water plant, wastewater treatment plant, an industry, etc.",
+        "equation": null,
+        "id": 33,
+        "title": "Metric “C.3.1\" Water-related materials recovery",
+        "type": "Equation-based",
+        "updatedAt": 1676924547171
+    },
+    {
+        "assessmentCriteriaId": 9,
+        "createdAt": 1676925013095,
+        "description": "Nutrient recovered is the nutrients obtained by a recovery process from a source such as wastewater, waste, or sludge.",
+        "equation": null,
+        "id": 34,
+        "title": "Metric “C.3.2\" Fertilizer production avoided",
+        "type": "Equation-based",
+        "updatedAt": 1676924565875
+    },
+    {
+        "assessmentCriteriaId": 9,
+        "createdAt": 1676925013095,
+        "description": "This metric aims to assess the level of environmental sustainability of the service in terms of circularity and the resources recovery, regarding the reclaimed water used for non-potable uses (e.g., for irrigation and street cleaning). Reclaimed water means urban wastewater that has been treated in compliance with the requirements set out in Directive 91/271/EEC and which results from further treatment in a reclamation facility (EU Regulation 2020/741).",
+        "equation": null,
+        "id": 35,
+        "title": "Metric “C.3.3” Reclaimed non potable water use",
+        "type": "Equation-based",
+        "updatedAt": 1676924566176
+    },
+    {
+        "assessmentCriteriaId": 9,
+        "createdAt": 1676925013095,
+        "description": "This metric aims to assess the level of environmental sustainability of the service in terms of circularity and the resources recovery, regarding the production of reclaimed water, obtained from the wastewater treatment. Reclaimed water means urban wastewater that has been treated in compliance with the requirements set out in Directive 91/271/EEC and which results from further treatment in a reclamation facility (EU Regulation 2020/741)",
+        "equation": null,
+        "id": 36,
+        "title": "Metric “C.3.4” Reclaimed water production",
+        "type": "Equation-based",
+        "updatedAt": 1676924566478
+    },
+    {
+        "assessmentCriteriaId": 9,
+        "createdAt": 1676925013095,
+        "description": "Water treatment: water treatment is any process that improves the quality of water to make it appropriate for a specific end-use. Waste recovery: it is any process where some kind of waste (e.g., sludge, ice cream, food waste, etc.) is used to get a by-product or energy. Treatment process or activity: it is considered the main infrastructure or technology where the organization is having its main activities. It can be considered a wastewater treatment plant, an industry, etc.",
+        "equation": null,
+        "id": 37,
+        "title": "Metric “C.3.5\" Energy production",
+        "type": "Equation-based",
+        "updatedAt": 1676924566819
+    },
+    {
+        "assessmentCriteriaId": 10,
+        "createdAt": 1676925013095,
+        "description": "The Infrastructure Planning Index for Adaptive Change intends to assess, on the one hand, the existence of a robust plan for infrastructure adaptive change; on the other hand, its features regarding the ability to be adapted, flexible and agile, promoting adaptive responses and management of infrastructures in order to be resilient considering circularity. Resilient assessed in terms of robustness, autonomy, and redundancy",
+        "equation": null,
+        "id": 38,
+        "title": "Metric “D.1.1” Infrastructure Planning Index for Adaptive Change",
+        "type": "Questionnaire-based",
+        "updatedAt": 1676924630746
+    },
+    {
+        "assessmentCriteriaId": 11,
+        "createdAt": 1676925013095,
+        "description": "The Infrastructure Current Value would be, in a competitive market activity, its market value. In a monopolistic activity, as in urban water services, alternative valuation approaches must be adopted. Dividing this current value by the replacement cost on modern equivalent asset basis provides a measurement of the current value of the infrastructure.",
+        "equation": null,
+        "id": 39,
+        "title": "Metric “D.2.1” Infrastructure Value Index",
+        "type": "Questionnaire-based",
+        "updatedAt": 1676924652026
+    },
+    {
+        "assessmentCriteriaId": 11,
+        "createdAt": 1676925013095,
+        "description": "The Infrastructure Implementation Index for Adaptive Change intends to assess the level of implementation of the plan and of promotion infrastructure adaptive change. An implemented plan means that it is in place and the investment is being executed. A plan that promotes adaptive change means that it is being adequately monitored and reviewed, considering critical review of actions, ensuring it remains relevant and is adequate for infrastructure adaptive change.",
+        "equation": null,
+        "id": 40,
+        "title": "Metric “D.2.2” Infrastructure Implementation Index for Adaptive Change",
+        "type": "Equation-based",
+        "updatedAt": 1676924653077
+    },
+    {
+        "assessmentCriteriaId": 12,
+        "createdAt": 1676925013095,
+        "description": "The water loss per pipelines length provides an insightful information about the level of conditions of water pipes, but it does not take directly into account the relationship between water losses and pressure, and it is mostly suited for system with a low density of connections. ",
+        "equation": null,
+        "id": 41,
+        "title": "Metric “D.3.1” Linear water losses",
+        "type": "Equation-based",
+        "updatedAt": 1676924700986
+    },
+    {
+        "assessmentCriteriaId": 12,
+        "createdAt": 1676925013095,
+        "description": "The water storage capacity provides an insightful information about the number of days that the system can handle relying on the potential stored volume of water, not on the actual volume of stored water.",
+        "equation": null,
+        "id": 42,
+        "title": "Metric “D.3.2” Water Storage Capacity",
+        "type": "Equation-based",
+        "updatedAt": 1676924701341
+    },
+    {
+        "assessmentCriteriaId": 12,
+        "createdAt": 1676925013095,
+        "description": "This metric provides the frequency of the respective type of incidents in the assessment year per length unit. Frequency of yearly incidents along time provides information on the performance progress of the system toward change.",
+        "equation": null,
+        "id": 43,
+        "title": "Metric “D.3.3” Incident occurrences",
+        "type": "Equation-based",
+        "updatedAt": 1676924701670
+    },
+    {
+        "assessmentCriteriaId": 12,
+        "createdAt": 1676925013095,
+        "description": "This metric provides insight on the average CSOs occurrences per CSO device in an assessment year. Average frequency of yearly CSOs (registered) occurrences per device along time provides information on the performance of the combined or stormwater system towards change.",
+        "equation": null,
+        "id": 44,
+        "title": "Metric “D.3.4” Combined Sewer Overflows",
+        "type": "Equation-based",
+        "updatedAt": 1676924702024
+    },
+    {
+        "assessmentCriteriaId": 12,
+        "createdAt": 1676925013095,
+        "description": "The metric addresses resilience of the water infrastructure with regards to infrastructure assets robustness. It also reflects the level of preparedness of the operator in restoring the system. It refers to structural failures on the assets (collapses, bursts, etc.), whether originating or not a service interruption as a consequence. The time of restoration (TR) does not refer to assets that have been decommissioned. A low value of the max TR means that if a structural failure occurs in the system, it can be quickly restored, while a high value means the system is less robust. ",
+        "equation": null,
+        "id": 45,
+        "title": "Metric “D.3.5” Time for restoration",
+        "type": "Equation-based",
+        "updatedAt": 1676924702365
+    },
+    {
+        "assessmentCriteriaId": 12,
+        "createdAt": 1676925013095,
+        "description": "The metric addresses resilience of the water infrastructure considering infrastructure assets autonomy. Autonomy relates to dependence from other services. It refers to the part of the infrastructure that is dependent to other services (e.g., energy) where autonomy solutions (back-up solutions) are implemented (e.g., electrical generators). A low value means that if a failure occurs in the other service (e.g., energy) there is a high percentage of water customers served by the dependent water infrastructure that will be affected, while a high value means that even if a failure occurs in the other service, the water infrastructure maintains operational, and a low number of water customers will be affected. ",
+        "equation": null,
+        "id": 46,
+        "title": "Metric “D.3.6” Level of autonomy (of infrastructure)",
+        "type": "Equation-based",
+        "updatedAt": 1676924702687
+    },
+    {
+        "assessmentCriteriaId": 12,
+        "createdAt": 1676925013095,
+        "description": "The metric addresses resilience of the water infrastructure considering infrastructure assets redundancy. Redundancy relates alternative solutions in the service. It refers to the part of the infrastructure where solutions increasing redundancy are implemented (e.g., DMA (district metered areas), valves, gates). A low value means that if a failure occurs in the water service there is a high percentage of water customers that will be affected, while a high value means that even if a failure occurs in the water service the water infrastructure maintains operational with an alternative solution and a low number of water customers will be affected. ",
+        "equation": null,
+        "id": 47,
+        "title": "Metric “D.3.7” Level of redundancy",
+        "type": "Equation-based",
+        "updatedAt": 1676924703006
+    },
+    {
+        "assessmentCriteriaId": 12,
+        "createdAt": 1676925013095,
+        "description": "This metric aims to assess the level of sustainability of the service management in terms of infrastructure, regarding the use of water treatment infrastructure. The treatment capacity utilization is an important measure to assess the under or over utilization of the infrastructure which impact the process efficiency.",
+        "equation": null,
+        "id": 48,
+        "title": "Metric “D.3.8” Treatment capacity utilization",
+        "type": "Equation-based",
+        "updatedAt": 1676924703312
+    },
+    {
+        "assessmentCriteriaId": 13,
+        "createdAt": 1676925013095,
+        "description": "The metric assesses the knowledge and level of education of involved stakeholders of current and future risks, impacts and uncertainties of water-smart solutions and challenges.",
+        "equation": null,
+        "id": 49,
+        "title": "Metric “E.1.1” Knowledge and education",
+        "type": "Interview-based",
+        "updatedAt": 1676924838895
+    },
+    {
+        "assessmentCriteriaId": 13,
+        "createdAt": 1676925013095,
+        "description": "The extent that information on water smartness related aspects are available, reliable, and based on multiple sources and methods. How this information is used to meet current and future demands to reveal information gaps and enhance well-informed decision-making.",
+        "equation": null,
+        "id": 50,
+        "title": "Metric “E.1.2” Information availability and use",
+        "type": "Interview-based",
+        "updatedAt": 1676924839223
+    },
+    {
+        "assessmentCriteriaId": 13,
+        "createdAt": 1676925013095,
+        "description": "The metric assesses the sense of urgency for endorsing water-smart solutions that stakeholders experience which supports awareness, action and water-smart policy.",
+        "equation": null,
+        "id": 51,
+        "title": "Metric “E.1.3” Local sense of urgency",
+        "type": "Interview-based",
+        "updatedAt": 1676924839553
+    },
+    {
+        "assessmentCriteriaId": 13,
+        "createdAt": 1676925013095,
+        "description": "The extent that water-smartness is interwoven in sustainable policy, in the historical, cultural and political context, expressed in high levels of hydrocitizenship across multiple governance levels. The metric assesses the levels of social engagement and commitment towards a water-smart culture, based on awareness of water-related challenges and their implications for the well-being of the community.",
+        "equation": null,
+        "id": 52,
+        "title": "Metric “E.1.4” Water smart culture",
+        "type": "Interview-based",
+        "updatedAt": 1676924839879
+    },
+    {
+        "assessmentCriteriaId": 13,
+        "createdAt": 1676925013095,
+        "description": "The extent that monitoring of process, progress and policies enable learning. This learning in its basic level is rapidly recognizing alarming situations in order to act on them timely. However, learning is more advanced if monitoring data can enable the recognition of underlying trends or even have predictive value.",
+        "equation": null,
+        "id": 53,
+        "title": "Metric “E.1.5” Smart monitoring",
+        "type": "Interview-based",
+        "updatedAt": 1676924840214
+    },
+    {
+        "assessmentCriteriaId": 14,
+        "createdAt": 1676925013095,
+        "description": "The extent that responsibilities are clearly divided and that all stakeholders and competent authorities accurately know who is responsible to do what in order to pursue water-smart solutions.",
+        "equation": null,
+        "id": 54,
+        "title": "Metric “E.2.1” Clear division of responsibility",
+        "type": "Interview-based",
+        "updatedAt": 1676924908666
+    },
+    {
+        "assessmentCriteriaId": 14,
+        "createdAt": 1676925013095,
+        "description": "Legitimate forms of power that can enable water-smart solutions and contribute to a water-smart society. ",
+        "equation": null,
+        "id": 55,
+        "title": "Metric “E.2.2” Authority",
+        "type": "Interview-based",
+        "updatedAt": 1676924909154
+    },
+    {
+        "assessmentCriteriaId": 14,
+        "createdAt": 1676925013095,
+        "description": "The level of freedom and opportunity to develop a variety of alternatives and approaches to experiment and find out what works and what does not work and, in this way, becoming water-smart. ",
+        "equation": null,
+        "id": 56,
+        "title": "Metric “E.2.3” Room to maneuver",
+        "type": "Interview-based",
+        "updatedAt": 1676924909602
+    },
+    {
+        "assessmentCriteriaId": 15,
+        "createdAt": 1676925013095,
+        "description": "The extent that all relevant stakeholders are included in a legitimate and meaningful way is essential for decision-making about adopting and implementing water-smart solutions. It can be considered as a key component of achieving water smartness.",
+        "equation": null,
+        "id": 57,
+        "title": "Metric “E.3.1” Stakeholders inclusiveness",
+        "type": "Interview-based",
+        "updatedAt": 1676924949501
+    },
+    {
+        "assessmentCriteriaId": 15,
+        "createdAt": 1676925013095,
+        "description": "Level of commitment during stakeholder engagement is focused on the process instead of on early end-result. Level that stakeholders are given the opportunity to be actively involved. The presence of clear and transparent exit procedures prior and during the stakeholder engagement process. ",
+        "equation": null,
+        "id": 58,
+        "title": "Metric “E.3.2” Protection of core values",
+        "type": "Interview-based",
+        "updatedAt": 1676924949857
+    },
+    {
+        "assessmentCriteriaId": 15,
+        "createdAt": 1676925013095,
+        "description": "The extent that stakeholder are open to and able to interact with other stakeholders and deliberately choose to learn from each other through relational (1), cognitive (2) and strategic (3) learning.  1)\tRelational learning refers to the extent that stakeholders understand traditional beliefs in relation to the water-smartness challenges. 2)\tCognitive learning refers to the understanding of dynamics, causes and solutions related to water-smartness challenges. 3)\tStrategic learning refers to the extent that stakeholders have changed the way they operate in their everyday practice in relation to resources, priorities and strategic cooperation.",
+        "equation": null,
+        "id": 59,
+        "title": "Metric “E.3.3” Cross-stakeholders learning",
+        "type": "Interview-based",
+        "updatedAt": 1676924950144
+    },
+    {
+        "assessmentCriteriaId": 15,
+        "createdAt": 1676925013095,
+        "description": "The extent that practitioners, policy-makers, researchers etc. are enabled to engage, build trust-collaboration, and connect business, government, and sectors to enable water-smart solutions in an unconventional and comprehensive way.",
+        "equation": null,
+        "id": 60,
+        "title": "Metric “E.3.4” Collaborative agents",
+        "type": "Interview-based",
+        "updatedAt": 1676951875449
+    }
+]

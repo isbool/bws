@@ -1,0 +1,20 @@
+[
+    {
+        "createdAt": 1676955954359,
+        "id": 1,
+        "updatedAt": 1676959345909,
+        "value": "${\\mathrm{k}}{\\mathrm{m}}^{3}/{\\mathrm{year}}$"
+    },
+    {
+        "createdAt": 1676955954359,
+        "id": 2,
+        "updatedAt": 1676959345909,
+        "value": "${\\%}$"
+    },
+    {
+        "createdAt": 1676957783938,
+        "id": 3,
+        "updatedAt": 1676957790116,
+        "value": "-"
+    }
+]
